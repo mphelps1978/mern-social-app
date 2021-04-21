@@ -1,10 +1,9 @@
-# MERN Skeleton
+# MERN Social App
 
-A skeleton application with basic user CRUD and auth features - developed using React, Node, Express and MongoDB.
+A minimal functionality Social Media Application with basic user CRUD and auth features - as well as some social media aspects - developed using React, Node, Express and MongoDB.
 
-![MERN Skeleton](https://mernbook.s3.amazonaws.com/git+/skeleton2.png "MERN Skeleton")
+Note, this is being developed for educational purposes only. Issues will be ignored. You are free to clone this repository for your own personal use and education, but I will not provide any support for this repository.
 
-### [Live Demo](http://skeleton2.mernbook.com/ "MERN Skeleton")
 
 #### What you need to run this code
 1. Node (13.12.0)
@@ -12,7 +11,7 @@ A skeleton application with basic user CRUD and auth features - developed using 
 3. MongoDB (4.2.0)
 
 ####  How to run this code
-1. Make sure MongoDB is running on your system
+1. Make sure MongoDB is running on your system - There is currently no remote database, although it is configured for server-side configuration variables.
 2. Clone this repository
 3. Open command line in the cloned folder,
    - To install dependencies, run ```  npm install  ``` or ``` yarn ```
