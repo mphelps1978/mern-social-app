@@ -9,10 +9,12 @@ dependencies:
   cors: 2.8.5
   express: 4.17.1
   express-jwt: 5.3.1
+  formidable: 1.2.2
   helmet: 3.22.0
   jsonwebtoken: 8.5.1
   lodash: 4.17.15
   mongoose: 5.9.7_mongoose@5.9.7
+  nvm: 0.0.4
   prop-types: 15.7.2
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
@@ -2684,6 +2686,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
+  /formidable/1.2.2:
+    dev: false
+    resolution:
+      integrity: sha512-V8gLm+41I/8kguQ4/o1D3RIHRmhYFG4pnNyonvua+40rqcEmT4+V71yaZ3B457xbbgCsCfjSPi65u/W6vK1U5Q==
   /forwarded/0.1.2:
     dev: false
     engines:
@@ -4179,6 +4185,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
+  /nvm/0.0.4:
+    deprecated: 'This is NOT the correct nvm. Visit http://nvm.sh and use the curl command to install it.'
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-OKF46dMbKDUIyS0VydqGHRqSELw=
   /object-assign/4.1.1:
     engines:
       node: '>=0.10.0'
@@ -5894,11 +5906,13 @@ specifiers:
   express: 4.17.1
   express-jwt: 5.3.1
   file-loader: 6.0.0
+  formidable: ^1.2.2
   helmet: 3.22.0
   jsonwebtoken: 8.5.1
   lodash: 4.17.15
   mongoose: 5.9.7
   nodemon: 2.0.2
+  nvm: ^0.0.4
   prop-types: ^15.7.2
   react: 16.13.1
   react-dom: 16.13.1
